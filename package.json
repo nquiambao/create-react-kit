@@ -14,8 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "clean": "rd -r node_modules .DS_STORE .env"
   },
   "eslintConfig": {
     "extends": [
